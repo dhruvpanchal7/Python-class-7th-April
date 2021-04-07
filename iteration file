@@ -1,0 +1,12 @@
+import csv
+a = list(range(1000))
+with open('realestatedata.csv','r') as f:
+    reader = csv.reader(f)
+    for each_row in reader:
+        #print(each_row)
+        a.append(each_row)
+        
+for i in a:
+    for x in a:
+        print(x)
+    
