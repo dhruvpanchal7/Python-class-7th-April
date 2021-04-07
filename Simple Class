@@ -1,0 +1,31 @@
+'''
+class Person:
+	"This is a person class"
+	age = 10
+ 
+	def greet(self):
+            print('Hello')
+ 
+ 
+# Output: 10
+print(Person.age)
+ 
+# Output: <function Person.greet>
+print(Person.greet)
+ 
+# Output: "This is a person class"
+print(Person.__doc__)
+'''
+class Dog:
+    "This is a dog class"
+    breed = 'Labrador'
+    name =  'Tyson'
+    
+    def bark(self):
+        print('Bark Bark')
+        
+print(Dog.breed)
+print(Dog.bark)
+print(Dog.__doc__)
+        
+    
